@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
 	//		bool antiAliasing		default: false
 	//		bool fullScreen			default: false
 	//		bool resizable			default: false
-	theWorld.Initialize(1024, 768, "Shape's Adventure", false);
+	theWorld.Initialize(1024, 768, "Shape Adventure", false);
 	//theWorld.SetupPhysics();
 
   theWorld.SetBackgroundColor(Color::FromInts(0, 191, 255));
