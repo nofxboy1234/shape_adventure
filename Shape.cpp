@@ -11,7 +11,7 @@ Shape::Shape(Vector2 startingPosition) {
   _jumpTimeout = -1.0f;
   _onGround = true;
 
-  SetColor(1.0f, 1.0f, 0.0f, 1.0f);
+  SetColor(0.0f, 1.0f, 0.0f, 1.0f);
   SetDrawShape(ADS_Square);
   SetSize(2.0f);
   // SetSprite("Resources/Images/sven.png");
